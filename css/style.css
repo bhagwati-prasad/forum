@@ -36,9 +36,25 @@ header {
     float: right;
 }
 
+#banner {
+    overflow: hidden;
+    background: #ffe8ff;
+}
+
+#mainContent {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* Article / Question styling */
 .articleCard {
     overflow: hidden;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #666;
+}
+.articleCard:last-child {
+    border-bottom: none;
 }
 .articleStats {
     float: left;
@@ -47,6 +63,9 @@ header {
 .articleStats .articleVotes,.articleStats .articleAns,.articleStats .articleViews {
     float: left;
     width: 33.33%;
+}
+.voteNum {
+    margin-right: 15px;
 }
 .articleStats .articleStatItem {
     height: 2em;
@@ -72,8 +91,15 @@ header {
 .articleCategoryList li+li {
     margin-left: 5px;
 }
+.articleCategory .heading-icon {
+    margin-right: 10px;
+    display: inline-block;
+}
 .articleOrigin {
     float: right;
+}
+.curatedArticle p {
+    text-indent: 3em;
 }
 /* End Article / Question styling */
 
