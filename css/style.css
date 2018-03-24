@@ -1,0 +1,101 @@
+* { margin: 0; padding: 0; }
+a { text-decoration: none; }
+img { border: none; }
+ul, li { list-style: none; }
+:focus { outline: none; }
+body { font-size: 14px; }
+
+/* Overrides */
+footer.mdl-mini-footer { padding: 16px 16px 10px 16px; }
+/* End overrides */
+
+:root {
+    --blue-color-one: #6699ff;
+    --blue-color-two: #587498;
+    --blue-color-three:# #3366cc;
+    --blue-color-four: #003399;
+    --blue-color-five: #333399;
+    
+    --green-color-one: #587058;
+    --purple-color-one: #996699;
+}
+
+header {
+    overflow: hidden;
+}
+
+#logo {
+    float: left;
+}
+
+#topSearch {
+    float: right;
+}
+
+#accessActions {
+    float: right;
+}
+
+/* Article / Question styling */
+.articleCard {
+    overflow: hidden;
+}
+.articleStats {
+    float: left;
+    width: 20%;
+}
+.articleStats .articleVotes,.articleStats .articleAns,.articleStats .articleViews {
+    float: left;
+    width: 33.33%;
+}
+.articleStats .articleStatItem {
+    height: 2em;
+    line-height: 2em;
+}
+.articleVoteNum .faIcon {
+    margin-left: 7px;
+}
+.articleStatement {
+    float: right;
+    width: 80%;
+}
+.articleMeta {
+    overflow: hidden;
+}
+.articleCategoryList {
+    float: left;
+    width: 75%;
+}
+.articleCategoryList li {
+    float: left;
+}
+.articleCategoryList li+li {
+    margin-left: 5px;
+}
+.articleOrigin {
+    float: right;
+}
+/* End Article / Question styling */
+
+#rightSidebar {
+    background: #f1f1f1;
+    padding: 0 8px;
+}
+
+
+
+#socialSharing button {
+    cursor: pointer;
+}
+
+#socialSharing .twitter:hover {
+    color: #0084b4;
+}
+
+#socialSharing .facebook:hover {
+    color: #3b5998;
+}
+
+#socialSharing .youtube:hover {
+    color: #ff0000;
+}

@@ -1,0 +1,142 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Forum for students</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+            <header class="mdl-layout__header">
+                <div class="mdl-layout__header-row">
+                    <span class="mdl-layout-title">Forum For Students</span>
+                    <div class="mdl-layout-spacer"></div>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+                        <label class="mdl-button mdl-js-button mdl-button--icon" for="header-drawer-exp">
+                            <i class="material-icons">search</i>
+                        </label>
+                        <div class="mdl-textfield__expandable-holder">
+                            <input class="mdl-textfield__input" type="text" name="q" id="header-drawer-exp">
+                        </div>
+                    </div>
+                    <nav class="mdl-navigation mdl-layout--large-screen-only">
+                        <a class="mdl-navigation__link" href="#">Ask</a>
+                        <a class="mdl-navigation__link" href="#">Log In</a>
+                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Sign up</button>
+                    </nav>
+                </div>
+            </header>
+            <div class="mdl-layout__drawer">
+                <span class="mdl-layout-title">The Forum</span>
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="#">Burning Questions</a>
+                    <a class="mdl-navigation__link" href="#">New Questions</a>
+                    <a class="mdl-navigation__link" href="#">Topics</a>
+                    <a class="mdl-navigation__link" href="#">My Account</a>
+                </nav>
+            </div>
+            <main class="mdl-layout__content">
+                <div class="page-content">
+                    <section id="banner">
+                        <div id="bannerTop">
+                            <h1>Forum for students</h1>
+                            <a href="#" id="questionPopup">Ask</a>
+                        </div>
+                        <div id="bannerTag">
+                            <p>The place to learn.</p>
+                        </div>
+                        <div id="bannerRoller">
+                            
+                        </div>
+                    </section id="content">
+                    <div class="mdl-grid">
+                        <section class="mdl-cell mdl-cell--10-col">
+                            <div class="articleCategory topArticles">
+                                <h3>Top Questions</h3>
+                                <div class="articleCard">
+                                    <div class="articleStats">
+                                        <div class="articleVotes">
+                                            <div class="articleVoteNum articleDownVoteNum articleStatItem">
+                                                <span class="voteNum">157</span><i class="fa fa-thumbs-up"></i>
+                                            </div>
+                                            <div class="articleVoteNum articleUpVoteNum articleStatItem">
+                                                <span class="voteNum">12</span><i class="fa faIcon fa-thumbs-down"></i>
+                                            </div>
+                                        </div>
+                                        <div class="articleAns">
+                                            <div class="articleAnsNum faIcon articleStatItem">
+                                                17
+                                            </div>
+                                            <div class="articleAnsIcon articleStatItem">
+                                                Answers
+                                            </div>
+                                        </div>
+                                        <div class="articleViews">
+                                            <div class="articleViewsNum articleStatItem">
+                                                632
+                                            </div>
+                                            <div class="articleViewsIcon articleStatItem">
+                                                Views
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="articleStatement">
+                                        <p>Article statement</p>
+                                        <div class="articleMeta">
+                                            <ul class="articleCategoryList">
+                                                <li class="mdl-chip"><a class="mdl-chip__text">Math</a></li>
+                                                <li class="mdl-chip"><a class="mdl-chip__text">Geometry</a></li>
+                                                <li class="mdl-chip"><a class="mdl-chip__text">Curves</a></li>
+                                            </ul>
+                                            <div class="articleOrigin">
+                                                <span class="articleCreatedOn">11 Mar 2018</span>
+                                                <a href="#" class="articleCreatedBy">Bhagwati Prasad</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="articleCategory topArticles">
+                                <h3>New Questions</h3>
+                            </div>
+                            <div class="articleCategory topArticles">
+                                <h3>Curated Content</h3>
+                            </div>
+                        </section>
+                        <aside class="mdl-cell mdl-cell--2-col" id="rightSidebar">
+                            <h4>Notice</h4>
+                            <p>Scholarly articles.</p>
+                            <h4>Attention</h4>
+                            <p>Some trending articles or questions.</p>
+                        </aside>
+                    </div>
+                </div>
+            </main>
+            <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <div class="mdl-logo">More Information</div>
+                        <ul class="mdl-mini-footer__link-list">
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Privacy and Terms</a></li>
+                            <li><a href="#">User Agreement</a></li>
+                        </ul>
+                    </div>
+                    <div class="mdl-mini-footer__right-section">
+                    <div id="socialSharing">
+                        <button class="mdl-mini-footer__social-btn twitter"><i class="fab fa-twitter fa-2x"></i></button>
+                        <button class="mdl-mini-footer__social-btn facebook"><i class="fab fa-facebook fa-2x"></i></button>
+                        <button class="mdl-mini-footer__social-btn youtube"><i class="fab fa-youtube fa-2x"></i></button>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    </body>
+</html>
