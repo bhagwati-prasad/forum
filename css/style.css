@@ -98,9 +98,6 @@ header {
 .articleOrigin {
     float: right;
 }
-.curatedArticle p {
-    text-indent: 3em;
-}
 /* End Article / Question styling */
 
 #rightSidebar {
